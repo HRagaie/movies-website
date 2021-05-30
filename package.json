@@ -1,0 +1,26 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-flash-notification": "^0.5.0",
+    "express-session": "^1.17.0",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
